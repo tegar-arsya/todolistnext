@@ -4,7 +4,7 @@ export default function Home() {
   const currentYear = new Date().getFullYear(); // Get the current year
 
   return (
-    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 gap-16 bg-white dark:bg-zinc-900">
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center bg-white dark:bg-zinc-900">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <TypewriterEffectDemo />
       </main>
