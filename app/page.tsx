@@ -5,9 +5,6 @@ export default function Home() {
 
   return (
     <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 gap-16 bg-white dark:bg-zinc-900">
-      <header className="row-start-1 text-center">
-        <h1 className="text-2xl font-bold text-gray-800">Welcome to Your Todo App</h1>
-      </header>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <TypewriterEffectDemo />
       </main>

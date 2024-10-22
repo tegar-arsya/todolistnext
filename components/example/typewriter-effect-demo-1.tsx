@@ -12,7 +12,7 @@ export default function TypewriterEffectSmoothDemo() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white dark:bg-zinc-900 min-h-screen">
+    <div className="flex flex-col items-center justify-center bg-white dark:bg-zinc-900">
       <div className="pt-6">
         <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">
           <TypewriterEffectSmooth words={words} />
